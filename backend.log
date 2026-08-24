@@ -1,0 +1,9 @@
+
+> cr-election-backend@1.0.0 dev
+> tsx watch src/index.ts
+
+CR Election API listening on port 4000 (development)
+12:48:29 pm [tsx] change in ./src\index.ts Restarting...
+CR Election API listening on port 4000 (development)
+12:48:33 pm [tsx] change in ./src\services\upload.service.ts Restarting...
+CR Election API listening on port 4000 (development)
