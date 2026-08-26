@@ -534,3 +534,99 @@
       at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
       at run.next (<anonymous>)
       at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+[2m11:03:14 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Identifier 'CandidateEditorModal' has already been declared. (1441:9)
+
+[0m [90m 1439 |[31m }
+ [90m 1440 |[31m
+[31m[1m>[22m[31m[90m 1441 |[31m [36mfunction[31m [33mCandidateEditorModal[31m({
+ [90m      |[31m          [31m[1m^[22m[31m
+ [90m 1442 |[31m   candidate[33m,[31m
+ [90m 1443 |[31m   onClose[33m,[31m
+ [90m 1444 |[31m   onSave[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:1441:9
+[33m  1470|                  label="Upload photo"
+  1471|                  value={form.photo}
+  1472|                  path={`elections/${electionId}/candidates/${candidate.id}`}
+     |                                        ^
+  1473|                  onUploaded={(url) => setForm({ ...form, photo: url })}
+  1474|                  className="h-24 w-24"[39m
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1623:19)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1589:12)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4896:11)
+      at TypeScriptParserMixin.registerFunctionStatementId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13495:16)
+      at TypeScriptParserMixin.registerFunctionStatementId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9199:13)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13479:12)
+      at TypeScriptParserMixin.parseFunctionStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13154:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12820:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:261:32)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:223:11)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:189:28
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:113:33
+      at step (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:287:14)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:223:11)
+[2m11:03:48 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: EBUSY: resource busy or locked, open 'C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx'[39m
+      at async open (node:internal/fs/promises:697:25)
+      at async Object.readFile (node:internal/fs/promises:1348:14)
+      at async loadAndTransform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51925:16)
+      at async viteTransformMiddleware (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m11:03:48 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] EBUSY: resource busy or locked, open 'C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/index.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:697:25)
+      at async Object.readFile (node:internal/fs/promises:1348:14)
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\lib\expandTailwindAtRules.js:173:34
+      at async Promise.all (index 0)
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\lib\expandTailwindAtRules.js:172:13
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\processTailwindFeatures.js:51:9
+      at async plugins (C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\plugin.js:38:17)
+      at async LazyResult.runAsync (C:\Users\skanda\Desktop\cr-elect\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async compileCSS (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36898:21)
+      at async TransformPluginContext.transform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36171:11)
+      at async PluginContainer.transform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m11:05:27 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: EBUSY: resource busy or locked, open 'C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx'[39m
+      at async open (node:internal/fs/promises:697:25)
+      at async Object.readFile (node:internal/fs/promises:1348:14)
+      at async loadAndTransform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51925:16)
+      at async viteTransformMiddleware (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m11:05:27 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] EBUSY: resource busy or locked, open 'C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/index.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:697:25)
+      at async Object.readFile (node:internal/fs/promises:1348:14)
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\lib\expandTailwindAtRules.js:173:34
+      at async Promise.all (index 0)
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\lib\expandTailwindAtRules.js:172:13
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\processTailwindFeatures.js:51:9
+      at async plugins (C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\plugin.js:38:17)
+      at async LazyResult.runAsync (C:\Users\skanda\Desktop\cr-elect\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async compileCSS (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36898:21)
+      at async TransformPluginContext.transform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36171:11)
+      at async PluginContainer.transform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
