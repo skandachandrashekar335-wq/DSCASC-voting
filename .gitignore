@@ -1,9 +1,7 @@
-
-node_modules/
-dist/
+node_modules
+dist
+.env.local
 .env
-backend/serviceAccount.json
-backend/uploads/
-*.log
-.vercel
-.env*
+*.local
+.DS_Store
+firebase-debug.log

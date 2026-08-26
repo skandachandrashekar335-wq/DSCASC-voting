@@ -1,0 +1,536 @@
+[2m9:22:27 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Identifier 'email' has already been declared. (165:8)
+
+[0m [90m 163 |[31m   }[33m,[31m [isAdmin[33m,[31m view[33m.[31mresultsRevealed])[33m;[31m
+ [90m 164 |[31m
+[31m[1m>[22m[31m[90m 165 |[31m   [36mconst[31m email [33m=[31m () [33m=>[31m (user[33m?[31m[33m.[31memail [33m?[31m[33m?[31m [32m""[31m)[33m.[31mtoLowerCase()[33m.[31mtrim()[33m;[31m
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 166 |[31m
+ [90m 167 |[31m   [36mconst[31m doInit [33m=[31m [36masync[31m () [33m=>[31m {
+ [90m 168 |[31m     [36mif[31m ([33m![31muser) [36mreturn[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:165:8
+[33m  163|    }, [isAdmin, view.resultsRevealed]);
+  164|  
+  165|    const email = () => (user?.email ?? "").toLowerCase().trim();
+     |          ^
+  166|  
+  167|    const doInit = async () => {[39m
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1623:19)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1589:12)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4896:11)
+      at TypeScriptParserMixin.declareNameFromIdentifier (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7588:16)
+      at TypeScriptParserMixin.checkIdentifier (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7584:12)
+      at TypeScriptParserMixin.checkLVal (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7521:12)
+      at TypeScriptParserMixin.parseVarId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13441:10)
+      at TypeScriptParserMixin.parseVarId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9773:11)
+      at TypeScriptParserMixin.parseVar (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13412:12)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13259:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9429:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12880:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13474:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12432:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13473:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13936:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9423:18)
+      at TypeScriptParserMixin.parseExport (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13857:25)
+      at TypeScriptParserMixin.parseExport (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9406:20)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12907:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:261:32)
+[2m9:22:41 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Identifier 'email' has already been declared. (182:8)
+
+[0m [90m 180 |[31m   }[33m,[31m [isAdmin[33m,[31m view[33m.[31mresultsRevealed])[33m;[31m
+ [90m 181 |[31m
+[31m[1m>[22m[31m[90m 182 |[31m   [36mconst[31m email [33m=[31m () [33m=>[31m (user[33m?[31m[33m.[31memail [33m?[31m[33m?[31m [32m""[31m)[33m.[31mtoLowerCase()[33m.[31mtrim()[33m;[31m
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 183 |[31m
+ [90m 184 |[31m   [36mconst[31m doInit [33m=[31m [36masync[31m () [33m=>[31m {
+ [90m 185 |[31m     [36mif[31m ([33m![31muser) [36mreturn[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:182:8
+[33m  180|    }, [isAdmin, view.resultsRevealed]);
+  181|  
+  182|    const email = () => (user?.email ?? "").toLowerCase().trim();
+     |          ^
+  183|  
+  184|    const doInit = async () => {[39m
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1623:19)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1589:12)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4896:11)
+      at TypeScriptParserMixin.declareNameFromIdentifier (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7588:16)
+      at TypeScriptParserMixin.checkIdentifier (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7584:12)
+      at TypeScriptParserMixin.checkLVal (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7521:12)
+      at TypeScriptParserMixin.parseVarId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13441:10)
+      at TypeScriptParserMixin.parseVarId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9773:11)
+      at TypeScriptParserMixin.parseVar (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13412:12)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13259:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9429:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12880:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13474:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12432:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13473:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13936:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9423:18)
+      at TypeScriptParserMixin.parseExport (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13857:25)
+      at TypeScriptParserMixin.parseExport (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9406:20)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12907:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:261:32)
+[2m9:22:53 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Identifier 'email' has already been declared. (182:8)
+
+[0m [90m 180 |[31m   }[33m,[31m [isAdmin[33m,[31m view[33m.[31mresultsRevealed])[33m;[31m
+ [90m 181 |[31m
+[31m[1m>[22m[31m[90m 182 |[31m   [36mconst[31m email [33m=[31m () [33m=>[31m (user[33m?[31m[33m.[31memail [33m?[31m[33m?[31m [32m""[31m)[33m.[31mtoLowerCase()[33m.[31mtrim()[33m;[31m
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 183 |[31m
+ [90m 184 |[31m   [36mconst[31m doInit [33m=[31m [36masync[31m () [33m=>[31m {
+ [90m 185 |[31m     [36mif[31m ([33m![31muser) [36mreturn[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:182:8
+[33m  180|    }, [isAdmin, view.resultsRevealed]);
+  181|  
+  182|    const email = () => (user?.email ?? "").toLowerCase().trim();
+     |          ^
+  183|  
+  184|    const doInit = async () => {[39m
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1623:19)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:1589:12)
+      at TypeScriptScopeHandler.declareName (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4896:11)
+      at TypeScriptParserMixin.declareNameFromIdentifier (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7588:16)
+      at TypeScriptParserMixin.checkIdentifier (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7584:12)
+      at TypeScriptParserMixin.checkLVal (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:7521:12)
+      at TypeScriptParserMixin.parseVarId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13441:10)
+      at TypeScriptParserMixin.parseVarId (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9773:11)
+      at TypeScriptParserMixin.parseVar (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13412:12)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13259:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9429:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12880:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13474:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12432:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13473:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13936:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9423:18)
+      at TypeScriptParserMixin.parseExport (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13857:25)
+      at TypeScriptParserMixin.parseExport (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9406:20)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12907:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\skanda\Desktop\cr-elect\node_modules\gensync\index.js:261:32)
+[2m10:11:59 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Unexpected token, expected "}" (584:8)
+
+[0m [90m 582 |[31m           onSchedule[33m=[31m{doSchedule}
+ [90m 583 |[31m         [33m/[31m[33m>[31m
+[31m[1m>[22m[31m[90m 584 |[31m       ) [33m:[31m [36mnull[31m}
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 585 |[31m
+ [90m 586 |[31m       {isAdmin [33m===[31m [36mfalse[31m [33m?[31m [36mnull[31m [33m:[31m isAdmin [33m===[31m [36mtrue[31m [33m?[31m (
+ [90m 587 |[31m         [33m<[31m[33mElectionDetailsEditor[31m details[33m=[31m{detailsInput} setDetails[33m=[31m{setDetailsInput} onSave[33m=[31m{doSaveDetails} busy[33m=[31m{busy} [33m/[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:584:8
+[33m  582|            onSchedule={doSchedule}
+  583|          />
+  584|        ) : null}
+     |          ^
+  585|  
+  586|        {isAdmin === false ? null : isAdmin === true ? ([39m
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6640:16)
+      at TypeScriptParserMixin.expect (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6920:12)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4653:10)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4727:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9796:39
+      at TypeScriptParserMixin.tryParse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9796:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13171:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12827:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+[2m10:12:34 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Expected corresponding JSX closing tag for <>. (607:4)
+
+[0m [90m 605 |[31m         [33m/[31m[33m>[31m
+ [90m 606 |[31m       ) [33m:[31m [36mnull[31m}
+[31m[1m>[22m[31m[90m 607 |[31m     [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m     [31m[1m^[22m[31m
+ [90m 608 |[31m   )[33m;[31m
+ [90m 609 |[31m }
+ [90m 610 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:607:4
+[33m  605|          />
+  606|        ) : null}
+  607|      </div>
+     |      ^
+  608|    );
+  609|  }[39m
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4736:14)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4765:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4775:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9796:39
+      at TypeScriptParserMixin.tryParse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6928:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9796:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10821:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12455:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10821:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12522:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11701:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11357:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10914:29)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9624:18)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10906:17)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10914:29)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9624:18)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10906:17)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10914:29)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9624:18)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10906:17)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10914:29)
+      at TypeScriptParserMixin.parseConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9624:18)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10906:17)
+[2m10:13:17 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: EBUSY: resource busy or locked, open 'C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx'[39m
+      at async open (node:internal/fs/promises:697:25)
+      at async Object.readFile (node:internal/fs/promises:1348:14)
+      at async loadAndTransform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51925:16)
+      at async viteTransformMiddleware (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m10:13:17 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] EBUSY: resource busy or locked, open 'C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/index.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:697:25)
+      at async Object.readFile (node:internal/fs/promises:1348:14)
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\lib\expandTailwindAtRules.js:173:34
+      at async Promise.all (index 0)
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\lib\expandTailwindAtRules.js:172:13
+      at async C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\processTailwindFeatures.js:51:9
+      at async plugins (C:\Users\skanda\Desktop\cr-elect\node_modules\tailwindcss\lib\plugin.js:38:17)
+      at async LazyResult.runAsync (C:\Users\skanda\Desktop\cr-elect\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async compileCSS (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36898:21)
+      at async TransformPluginContext.transform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36171:11)
+      at async PluginContainer.transform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/skanda/Desktop/cr-elect/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m10:36:42 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Unexpected token (1323:0)
+
+[0m [90m 1321 |[31m   )[33m;[31m
+ [90m 1322 |[31m }
+[31m[1m>[22m[31m[90m 1323 |[31m
+ [90m      |[31m [31m[1m^[22m[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:1323:0
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6640:16)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11468:22)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12924:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13474:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12432:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13473:10)
+      at TypeScriptParserMixin.parseFunctionStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13154:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12820:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+[2m10:38:14 pm[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Unexpected token (1323:0)
+
+[0m [90m 1321 |[39m   )[33m;[39m
+ [90m 1322 |[39m }
+[31m[1m>[22m[39m[90m 1323 |[39m
+ [90m      |[39m [31m[1m^[22m[39m[0m
+[2m10:38:14 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Unexpected token (1323:0)
+
+[0m [90m 1321 |[31m   )[33m;[31m
+ [90m 1322 |[31m }
+[31m[1m>[22m[31m[90m 1323 |[31m
+ [90m      |[31m [31m[1m^[22m[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:1323:0
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6640:16)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11468:22)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12924:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13474:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12432:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13473:10)
+      at TypeScriptParserMixin.parseFunctionStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13154:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12820:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
+[2m10:38:20 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\skanda\Desktop\cr-elect\src\pages\Control.tsx: Unexpected token (1323:0)
+
+[0m [90m 1321 |[31m   )[33m;[31m
+ [90m 1322 |[31m }
+[31m[1m>[22m[31m[90m 1323 |[31m
+ [90m      |[31m [31m[1m^[22m[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/skanda/Desktop/cr-elect/src/pages/Control.tsx[39m:1323:0
+      at constructor (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:369:19)
+      at TypeScriptParserMixin.raise (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6620:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:6640:16)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11468:22)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:4780:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11102:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11087:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:11067:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9858:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10920:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10925:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10902:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10852:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9807:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12450:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10801:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12924:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12129:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12115:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9193:18)
+      at C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13474:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12432:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13473:10)
+      at TypeScriptParserMixin.parseFunctionStatement (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13154:17)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12820:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:9529:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12796:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12773:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13345:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:13338:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12651:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:12641:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14517:25)
+      at TypeScriptParserMixin.parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:10147:18)
+      at parse (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\skanda\Desktop\cr-elect\node_modules\@babel\core\lib\transform.js:22:33)
