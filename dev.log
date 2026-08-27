@@ -126,3 +126,97 @@
 [2m11:07:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
 [2m11:07:29 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
 [2m11:14:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:49:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ImageUploader.tsx[22m
+[2m11:49:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ImageUploader.tsx, /src/index.css[22m
+[2m11:49:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:49:39 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:49:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CandidateCard.tsx, /src/index.css[22m
+[2m11:49:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:50:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Vote.tsx, /src/index.css[22m
+[2m3:48:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Control.tsx, /src/pages/Success.tsx, /src/pages/Results.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/components/ImageUploader.tsx[22m
+[2m3:48:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Control.tsx, /src/pages/Success.tsx, /src/pages/Results.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/components/ImageUploader.tsx[22m
+[2m3:49:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ImageUploader.tsx, /src/index.css[22m
+[2m3:49:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m3:49:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m3:49:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m3:49:52 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/lib/storage.ts[22m
+[2m3:50:59 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[2m3:51:00 pm[22m [36m[1m[vite][22m[39m server restarted.
+[2m3:51:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ImageUploader.tsx[22m
+[2m4:16:07 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[2m4:16:07 pm[22m [36m[1m[vite][22m[39m server restarted.
+[2m10:35:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m10:35:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m10:36:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m10:36:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m10:36:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m10:37:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:52:25 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Landing.tsx, /src/pages/Vote.tsx, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Control.tsx[22m
+[2m10:52:33 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/types.ts[22m
+[2m10:52:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m10:53:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m10:53:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m10:53:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Landing.tsx, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Control.tsx[22m
+[2m10:53:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:53:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:54:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:54:25 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:54:47 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:55:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:55:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:55:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:55:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:56:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:56:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m10:57:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Vote.tsx, /src/index.css[22m
+[2m10:57:28 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Vote.tsx, /src/index.css[22m
+[2m10:57:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Results.tsx, /src/index.css[22m
+[2m10:57:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Results.tsx, /src/index.css[22m
+[2m10:58:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m10:59:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:04:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:04:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:06:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:07:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:08:05 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/types.ts[22m
+[2m11:08:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:08:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:08:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:09:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Landing.tsx, /src/index.css[22m
+[2m11:09:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Vote.tsx, /src/index.css[22m
+[2m11:21:33 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m11:21:52 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mtailwind.config.js[22m
+[2m11:22:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:22:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:22:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:23:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m11:23:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SaasLanding.tsx, /src/index.css[22m
+[2m11:24:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SaasLanding.tsx, /src/index.css[22m
+[2m11:35:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ImageUploader.tsx, /src/index.css[22m
+[2m11:42:40 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:43:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:43:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:43:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:43:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:44:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ImageUploader.tsx, /src/index.css[22m
+[2m11:46:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:46:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:49:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:49:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Landing.tsx, /src/pages/Control.tsx[22m
+[2m11:49:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Landing.tsx, /src/pages/Results.tsx, /src/pages/Success.tsx, /src/pages/Vote.tsx, /src/pages/Control.tsx[22m
+[2m11:50:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Vote.tsx, /src/index.css[22m
+[2m11:50:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:51:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:51:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:51:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:51:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:52:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:52:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:53:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Countdown.tsx, /src/index.css[22m
+[2m11:53:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m11:53:29 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Results.tsx, /src/index.css[22m
+[2m11:53:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Vote.tsx, /src/index.css[22m
+[2m11:55:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m1:24:26 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Control.tsx, /src/index.css[22m
+[2m1:27:41 am[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+Re-optimizing dependencies because lockfile has changed
