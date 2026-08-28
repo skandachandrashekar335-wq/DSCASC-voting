@@ -3,82 +3,98 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // Admin = signed-in Google user whose email is in the election's admin allowlist.
-    function isAdmin() {
-      return request.auth != null
-        && request.auth.token.email in get(/databases/$(database)/documents/elections/$(electionId)/control/admin).data.adminEmails;
-    }
-
-    // Public election config (status, times, resultsRevealed). No secrets here.
+    // All election data lives under elections/{electionId}. Nesting keeps the
+    // $(electionId) path variable in scope for the shared isAdmin() function.
     match /elections/{electionId} {
-      allow read: if true;
-      allow write: if isAdmin();
-    }
 
-    // Admin allowlist — only the exact three configured emails may seed it.
-    match /elections/{electionId}/control/admin {
-      allow read: if isAdmin();
-      allow create: if request.resource.data.adminEmails == [
-        'skandachandrashekar335@gmail.com',
-        'purobiavinash-bcom@dscasc.edu.in',
-        'nagashreeshyl@gmail.com'
-      ];
-      allow update, delete: if isAdmin();
-    }
-
-    // Counsellor / Coordinator result components — admin only.
-    match /elections/{electionId}/components/{doc} {
-      allow read, write: if isAdmin();
-    }
-
-    // Candidates — approved profiles are public; admin manages; candidate edits own.
-    match /elections/{electionId}/candidates/{candidateId} {
-      allow read: if isAdmin() || resource.data.status == 'APPROVED';
-      allow create: if isAdmin();
-      allow update: if isAdmin()
-        || (request.auth != null
-            && resource.data.email == request.auth.token.email
-            && request.resource.data.email == resource.data.email
-            && request.resource.data.id == resource.data.id
-            && request.resource.data.gender == resource.data.gender);
-      allow delete: if isAdmin();
-    }
-
-    // Admin audit log — admin only.
-    match /elections/{electionId}/audit/{doc} {
-      allow create: if isAdmin();
-      allow read: if isAdmin();
-    }
-
-    // Participation: random unguessable browser ids, no personal data.
-    // Duplicate prevention is enforced by the transaction + the update rule below.
-    match /elections/{electionId}/participation/{voterId} {
-      allow read: if true;
-      allow create: if true;
-      allow update, delete: if isAdmin();
-    }
-
-    // Ballots: anyone may create a valid ballot during the voting window.
-    // Nobody (except admin) may read ballots — this keeps results private.
-    match /elections/{electionId}/ballots/{ballotId} {
-      function isValidBallot() {
-        let e = get(/databases/$(database)/documents/elections/$(electionId)).data;
-        return request.time >= e.votingStart
-          && request.time <= e.votingEnd
-          && request.resource.data.maleCandidateId is string
-          && request.resource.data.femaleCandidateId is string
-          && request.resource.data.maleCandidateId != ''
-          && request.resource.data.femaleCandidateId != ''
-          && request.resource.data.keys().hasOnly(['maleCandidateId','femaleCandidateId','createdAt']);
+      // Admin = signed-in Google user whose email is in the election's admin allowlist.
+      function isAdmin() {
+        return request.auth != null
+          && request.auth.token.email in get(/databases/$(database)/documents/elections/$(electionId)/control/admin).data.adminEmails;
       }
-      allow create: if isValidBallot();
-      allow read, update, delete: if isAdmin();
-    }
 
-    // Published results aggregate — readable by public ONLY after admin reveals.
-    match /elections/{electionId}/results/{doc} {
-      allow read: if get(/databases/$(database)/documents/elections/$(electionId)).data.resultsRevealed == true;
+      // Public election config (status, times, resultsRevealed). No secrets here.
+      allow read: if true;
       allow write: if isAdmin();
+
+      // Admin allowlist — only the exact three configured emails may seed it.
+      match /control/admin {
+        allow read: if isAdmin();
+        allow create: if request.resource.data.adminEmails == [
+          'skandachandrashekar335@gmail.com',
+          'purobiavinash-bcom@dscasc.edu.in',
+          'nagashreeshyl@gmail.com'
+        ];
+        allow update, delete: if isAdmin();
+      }
+
+      // Counsellor / Coordinator result components — admin only.
+      match /components/{doc} {
+        allow read, write: if isAdmin();
+      }
+
+      // Atomic ballot counter — public read; anyone may increment. The client
+      // transaction enforces the 70-ballot cap; this rule also rejects the 71st.
+      match /control/count {
+        allow read: if true;
+        allow create, update: if true;
+      }
+
+      // Candidates — approved profiles are public; admin manages; candidate edits own.
+      match /candidates/{candidateId} {
+        allow read: if isAdmin() || resource.data.status == 'APPROVED';
+        allow create: if isAdmin();
+        allow update: if isAdmin()
+          || (request.auth != null
+              && resource.data.email == request.auth.token.email
+              && request.resource.data.email == resource.data.email
+              && request.resource.data.id == resource.data.id
+              && request.resource.data.gender == resource.data.gender);
+        allow delete: if isAdmin();
+      }
+
+      // Admin audit log — admin only.
+      match /audit/{doc} {
+        allow create: if isAdmin();
+        allow read: if isAdmin();
+      }
+
+      // Participation: random unguessable browser ids, no personal data.
+      // Duplicate prevention is enforced by the transaction + the update rule below.
+      match /participation/{voterId} {
+        allow read: if true;
+        allow create: if true;
+        allow update, delete: if isAdmin();
+      }
+
+      // Ballots: any (unauthenticated) student may create a valid ballot during the
+      // voting window, but never beyond the 70-ballot cap. Nobody except admin may
+      // read ballots — this keeps results private.
+      match /ballots/{ballotId} {
+        function isValidBallot() {
+          let e = get(/databases/$(database)/documents/elections/$(electionId)).data;
+          return request.time >= e.votingStart
+            && request.time <= e.votingEnd
+            && request.resource.data.maleCandidateId is string
+            && request.resource.data.femaleCandidateId is string
+            && request.resource.data.maleCandidateId != ''
+            && request.resource.data.femaleCandidateId != ''
+            && request.resource.data.keys().hasOnly(['maleCandidateId', 'femaleCandidateId', 'createdAt']);
+        }
+        function countDoc() {
+          return get(/databases/$(database)/documents/elections/$(electionId)/control/count);
+        }
+        allow create: if isValidBallot()
+          && (!exists(/databases/$(database)/documents/elections/$(electionId)/control/count)
+              || countDoc().data.count < 70);
+        allow read, update, delete: if isAdmin();
+      }
+
+      // Published results aggregate — readable by public ONLY after admin reveals.
+      match /results/{doc} {
+        allow read: if get(/databases/$(database)/documents/elections/$(electionId)).data.resultsRevealed == true;
+        allow write: if isAdmin();
+      }
     }
   }
 }
